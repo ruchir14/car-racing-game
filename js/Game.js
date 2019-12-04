@@ -89,7 +89,7 @@ class Game {
       player.update();
     }
 
-    if(player.distance > 10000){
+    if(player.distance >4500){
       gameState = 2;
     }
    
